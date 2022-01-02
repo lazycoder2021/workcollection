@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a{
+            text-decoration:underline; 
+            color:black;
+        }
+
+        h3{
+            font-weight:300;
+            text-align:center; 
+            margin-top:10px;
+        }
+
+        .container{
+            width:1200px; 
+            margin:0px auto; 
+            border:1px solid black;
+            height:auto;
+            border-radius:4px;
+        }
+
+        body {
+            font-family: 'Noto Sans';
+        }
+
+        *{
+            margin:0px; 
+            padding:0px; 
+            box-sizing:border-box; 
+        }
+
+        .navWrapper{
+            display:flex;
+            float:right;
+            justify-content:center; 
+            align-items:center; 
+        }
+
+        .navWrapper p{
+            font-size:20px;
+            padding:20px;
+            margin-right:10px;
+            cursor:pointer; 
+        }
+
+        nav{
+           padding:10px; 
+           display:block;
+        }
+
+        .content{
+            border:0px solid black;
+            margin-top:150px;
+            text-align:center; 
+            margin-bottom:80px;
+        }
+
+        .content h2{
+            font-weight:300;
+            font-size:30px;
+        }
+
+        .work{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .work h2{
+            font-weight:300; 
+            font-size:30px;
+        }
+
+        .contact{
+            text-align:center; 
+            margin-bottom:30px;
+        }
+
+        .contact h2 {
+            font-weight: 300;
+            font-size: 30px;
+        }
+
+        .work1{
+            border:0px solid black;
+            
+            height:100px;
+            padding:20px;
+            width:1200px;
+            display:flex;
+            margin-bottom:10px;
+        }
+
+        h3{
+            cursor:pointer; 
+        }
+
+        .api-blog, .nodejs-blog {
+            border: 1px solid black;
+            width: 50%;
+            border-radius: 4px;
+        }
+
+        @media only screen and (max-width:480px) {
+
+            .container{
+                width:480px;
+            }
+
+            .contact{
+                margin-top:70px;
+            }
+
+            .work1{
+                flex-wrap:wrap; 
+                width:500px;
+                margin-bottom:0px;
+            }
+
+            .api-blog, .nodejs-blog{
+                width:100%;
+                margin-bottom:15px;
+                height:40px;
+              
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="navWrapper">
+                <p><a href="#work">Work</a></p>
+                <p><a href="#contact">Contact</a></p>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <h2>Passionate Writer. Enthusiastic Designer. Novice Coder.</h2>
+        </div>
+
+        <div class="work" id="work">
+            <h2>Work</h2>
+        </div>
+
+        <div class="work1">
+            <div class="api-blog">
+                <h3><a href="https://frosty-goldstine-87d9f7.netlify.app/">API Basics for Technical Writers</a></h3>
+            </div>
+            <div class="nodejs-blog">
+                <h3><a href="https://hardcore-clarke-549237.netlify.app/">Introduction to Backend Web Development</a></h3>
+            </div>
+        </div>
+
+        <div class="work1">
+            <div class="api-blog">
+                <h3><a href="https://nervous-curran-7708f4.netlify.app/">Blog Articles</a></h3>
+            </div>
+            <div class="nodejs-blog">
+                <h3><a href="https://flamboyant-mahavira-36bb33.netlify.app/">Brochure</a></h3>
+            </div>
+        </div>
+
+        <div class="work1">
+            <div class="api-blog">
+                <h3><a href="https://musing-brattain-0063ff.netlify.app/">Website</a></h3>
+            </div>
+            <div class="nodejs-blog">
+                <h3>Basic Web Apps: <a href="https://detect-climate.netlify.app/">Weather App</a>, <a href="https://simple-react-notes.netlify.app/">Task App</a>, <a href="https://react-simple-api-call.netlify.app/">Fetch User App</a></h3>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2 style="margin-top:30px;" class="special">Contact</h2>
+            <h3>I can be reached at:</h3>
+            <h3><b>Email:</b> tksingh2087@gmail.com</h3>
+            <h3><b>Phone:</b> 9677050769</h3>
+        </div>
+    </div>
+</body>
+</html>
